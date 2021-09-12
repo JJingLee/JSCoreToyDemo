@@ -19,6 +19,7 @@
 		837BC27926EDE4BC00381E97 /* jsCoreToyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837BC27826EDE4BC00381E97 /* jsCoreToyUITests.swift */; };
 		83DCF4A726EDFC6400B0459E /* ConvButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DCF4A626EDFC6400B0459E /* ConvButton.swift */; };
 		83DCF4A926EDFC7E00B0459E /* InputComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DCF4A826EDFC7E00B0459E /* InputComponent.swift */; };
+		83DCF4AC26EE5B7100B0459E /* BzModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DCF4AB26EE5B7100B0459E /* BzModel.swift */; };
 		D2E300C2533F5C1AE02766FA /* Pods_jsCoreToyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE53ABB00445673399552495 /* Pods_jsCoreToyTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,7 @@
 		837BC27A26EDE4BC00381E97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83DCF4A626EDFC6400B0459E /* ConvButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvButton.swift; sourceTree = "<group>"; };
 		83DCF4A826EDFC7E00B0459E /* InputComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputComponent.swift; sourceTree = "<group>"; };
+		83DCF4AB26EE5B7100B0459E /* BzModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BzModel.swift; sourceTree = "<group>"; };
 		B168CD4D6DAAEF26D2A596B3 /* Pods_jsCoreToy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jsCoreToy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B30878FDCB135B75C777539A /* Pods-jsCoreToy-jsCoreToyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jsCoreToy-jsCoreToyUITests.debug.xcconfig"; path = "Target Support Files/Pods-jsCoreToy-jsCoreToyUITests/Pods-jsCoreToy-jsCoreToyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EE45B2032B4CABA30F021590 /* Pods-jsCoreToyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jsCoreToyTests.release.xcconfig"; path = "Target Support Files/Pods-jsCoreToyTests/Pods-jsCoreToyTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				837BC25626EDE4BA00381E97 /* AppDelegate.swift */,
 				837BC25826EDE4BA00381E97 /* SceneDelegate.swift */,
 				837BC25A26EDE4BA00381E97 /* ViewController.swift */,
+				83DCF4AA26EE5B6000B0459E /* Model */,
 				83DCF4A526EDFC5200B0459E /* Components */,
 				837BC25C26EDE4BA00381E97 /* Main.storyboard */,
 				837BC25F26EDE4BC00381E97 /* Assets.xcassets */,
@@ -157,6 +160,14 @@
 				83DCF4A826EDFC7E00B0459E /* InputComponent.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		83DCF4AA26EE5B6000B0459E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				83DCF4AB26EE5B7100B0459E /* BzModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		C883C7453DFD468EC1701AE1 /* Frameworks */ = {
@@ -426,6 +437,7 @@
 				83DCF4A726EDFC6400B0459E /* ConvButton.swift in Sources */,
 				837BC25726EDE4BA00381E97 /* AppDelegate.swift in Sources */,
 				837BC25926EDE4BA00381E97 /* SceneDelegate.swift in Sources */,
+				83DCF4AC26EE5B7100B0459E /* BzModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
