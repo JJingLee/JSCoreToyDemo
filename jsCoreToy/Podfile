@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '11.0'
+
+target 'jsCoreToy' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for jsCoreToy
+  pod 'JJJSBridge', '0.1.2'
+  pod 'SnapKit'
+  pod 'Alamofire'
+  target 'jsCoreToyTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'jsCoreToyUITests' do
+    # Pods for testing
+  end
+
+end

@@ -1,0 +1,29 @@
+PODS:
+  - Alamofire (5.4.3)
+  - JJBundle (0.1.0)
+  - JJJSBridge (0.1.2):
+    - JJBundle
+    - SnapKit
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - JJJSBridge (= 0.1.2)
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - JJBundle
+    - JJJSBridge
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  JJBundle: 4ccebc2e7ef065046ad415a1ac08eed4f5feecc6
+  JJJSBridge: 26ceee3bb51c274962411e84f8cfbaa0e7129473
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: b729ff3957e69a9296ca3889744c1643c8a0420b
+
+COCOAPODS: 1.9.3
