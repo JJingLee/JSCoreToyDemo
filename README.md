@@ -9,7 +9,7 @@ a demo of how dynamic logic app product designed using javascriptCore.
 app listening at port 3500...
 ```
 
-#Build up iOS Proj
+# Build up iOS Proj
 ```
 % cd ../jsCoreToy
 % pod install
